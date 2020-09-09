@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvolutionFilter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Text(5X5)</Name>
+  <Factor>0.04</Factor>
+  <Bias>0</Bias>
+  <Kernel>
+    <ArrayOfDouble>
+      <double>1</double>
+      <double>1</double>
+      <double>1</double>
+      <double>1</double>
+      <double>1</double>
+    </ArrayOfDouble>
+    <ArrayOfDouble>
+      <double>1</double>
+      <double>1</double>
+      <double>1</double>
+      <double>1</double>
+      <double>1</double>
+    </ArrayOfDouble>
+    <ArrayOfDouble>
+      <double>1</double>
+      <double>1</double>
+      <double>1</double>
+      <double>1</double>
+      <double>1</double>
+    </ArrayOfDouble>
+    <ArrayOfDouble>
+      <double>1</double>
+      <double>1</double>
+      <double>1</double>
+      <double>1</double>
+      <double>1</double>
+    </ArrayOfDouble>
+    <ArrayOfDouble>
+      <double>1</double>
+      <double>1</double>
+      <double>1</double>
+      <double>1</double>
+      <double>1</double>
+    </ArrayOfDouble>
+  </Kernel>
+  <AnchorX>4</AnchorX>
+  <AnchorY>4</AnchorY>
+  <Offset>0</Offset>
+</ConvolutionFilter>

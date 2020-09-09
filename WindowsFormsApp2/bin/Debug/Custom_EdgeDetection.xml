@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvolutionFilter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Custom_EdgeDetection</Name>
+  <Factor>1</Factor>
+  <Bias>128</Bias>
+  <Kernel>
+    <ArrayOfDouble>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+    </ArrayOfDouble>
+    <ArrayOfDouble>
+      <double>-1</double>
+      <double>1</double>
+      <double>0</double>
+    </ArrayOfDouble>
+    <ArrayOfDouble>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+    </ArrayOfDouble>
+  </Kernel>
+  <AnchorX>2</AnchorX>
+  <AnchorY>2</AnchorY>
+  <Offset>0</Offset>
+</ConvolutionFilter>

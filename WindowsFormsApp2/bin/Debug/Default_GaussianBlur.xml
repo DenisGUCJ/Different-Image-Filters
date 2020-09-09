@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvolutionFilter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Default_GaussianBlur</Name>
+  <Factor>0.125</Factor>
+  <Bias>0</Bias>
+  <Kernel>
+    <ArrayOfDouble>
+      <double>0</double>
+      <double>1</double>
+      <double>0</double>
+    </ArrayOfDouble>
+    <ArrayOfDouble>
+      <double>1</double>
+      <double>4</double>
+      <double>1</double>
+    </ArrayOfDouble>
+    <ArrayOfDouble>
+      <double>0</double>
+      <double>1</double>
+      <double>0</double>
+    </ArrayOfDouble>
+  </Kernel>
+  <AnchorX>1</AnchorX>
+  <AnchorY>1</AnchorY>
+  <Offset>1</Offset>
+</ConvolutionFilter>
